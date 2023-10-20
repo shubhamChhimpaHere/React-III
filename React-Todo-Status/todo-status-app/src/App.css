@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-align: center;
+}
+table {
+  margin: auto;
+  margin-block: 60px;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+tr {
+  height: 50px;
+
+}
+
+input, button {
+  padding: 20px;
+}
+
+tbody > tr:nth-child(odd) {
+  background-color: #eee;
+}
