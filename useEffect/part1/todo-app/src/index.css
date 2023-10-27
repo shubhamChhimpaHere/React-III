@@ -1,0 +1,27 @@
+* {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.delete-btn {
+  border-radius: 8px;
+  border: 1px solid red;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: rgba(255, 0, 0, .1);
+  
+  color: red;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
